@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       REACT CSS MODULE TWO CLASSES JOIN
-      <p className={[styles.active, styles.show].join(' ') > Hello</p>
+      <p className={`${isActive ? [roomlistStyles.active, roomlistStyles.category_button].join(' ') : roomlistStyles.category_button}`} > Hello</p>
     </div >
   );
 }
